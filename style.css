@@ -7,22 +7,36 @@
 
 header {
 	margin-top: 20px;
+	/* margin-right: 400px; */
 	margin-bottom: 20px;
+	font-size: 1.5rem;
+	color: black;
 }
 
 body {
-	background-color: rgb(243, 243, 243);
+	background-color: white;
 }
 
 .container {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+	margin: 10vh;
+	padding: 2vw;
 }
 
 .customerBox {
+	color: black;
 	display: block;
-	box-shadow: -1px 1px 1px darkgrey;
-	border-radius: 15%;
+	font-size: 0.85rem;
+	padding: 30px;
+
+	/* background: linear-gradient(rgba(255, 153, 200, 1), rgba(194, 175, 240, 1)); */
+
+	margin: 10px;
+}
+
+.largePhoto {
+	border-radius: 50% 80%;
 }
 
 li {
@@ -30,8 +44,12 @@ li {
 }
 
 .customerEmail {
-	color: rgb(124, 124, 124);
+	color: dimgray;
 	font-size: 0.85rem;
 	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+}
+
+.customerAddressLine2 {
 	padding-bottom: 0.3rem;
 }
