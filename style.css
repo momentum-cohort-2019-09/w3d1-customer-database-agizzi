@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+header {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+body {
+	background-color: rgb(243, 243, 243);
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.customerBox {
+	display: block;
+	box-shadow: -1px 1px 1px darkgrey;
+	border-radius: 15%;
+}
+
+li {
+	list-style-type: none;
+}
+
+.customerEmail {
+	color: rgb(124, 124, 124);
+	font-size: 0.85rem;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+}
